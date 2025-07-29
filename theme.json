@@ -5,7 +5,7 @@
 		"white": "#FFFFFF",
 		"tan": "#FF4C4C",
 		"teal": "#047E84",
-		"plum": "#be57b2",
+		"plum": "#BE57B2",
 		"blush": "#DA627D",
 		"salmon": "#FCA17D",
 		"sky": "#86BBD8",
@@ -93,7 +93,7 @@
 				{
 					"type": "node",
 					"style": "plain",
-					"template": "{{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}\ue718 {{ .Full }}",
+					"template": "{{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}\ue718 {{ .Full }} ",
 					"foreground": "p:pantone_green",
 					"properties": {
 						"display_mode": "files",
@@ -107,7 +107,7 @@
 				{
 					"type": "python",
 					"style": "plain",
-					"template": "\ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }} (.venv) {{ end }}{{ .Full }}{{ end }}",
+					"template": "\ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }} (.venv) {{ end }}{{ .Full }}{{ end }} ",
 					"foreground": "p:python_yellow",
 					"properties": {
 						"display_mode": "files"
